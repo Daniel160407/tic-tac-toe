@@ -12,7 +12,7 @@ public class TicTacToe extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(TicTacToe.class.getResource("front.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 620, 480);
-        stage.setTitle("Hello!");
+        stage.setTitle("Tic-Tac-Toe");
         stage.setScene(scene);
         stage.show();
     }
